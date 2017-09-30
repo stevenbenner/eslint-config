@@ -22,5 +22,8 @@
 	"keywords": [
 		"eslint",
 		"eslintconfig"
-	]
+	],
+	"dependencies": {
+		"eslint-restricted-globals": "^0.1.1"
+	}
 }

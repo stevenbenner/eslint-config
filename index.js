@@ -1,5 +1,7 @@
 'use strict';
 
+let restrictedGlobals = require('eslint-restricted-globals');
+
 module.exports = {
 	'extends': [
 		'./rules/errors.js',
@@ -8,5 +10,8 @@ module.exports = {
 		'./rules/variables.js',
 		'./rules/style.js',
 		'./rules/es6.js'
-	].map(require.resolve)
+	].map(require.resolve),
+	rules: {
+		'no-restricted-globals': [ 'error' ].concat(restrictedGlobals)
+	}
 };
