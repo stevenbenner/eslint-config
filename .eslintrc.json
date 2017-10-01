@@ -1,0 +1,13 @@
+{
+	"root": true,
+	"extends": "./index.js",
+	"parserOptions": {
+		"ecmaVersion": 6
+	},
+	"env": {
+		"node": true
+	},
+	"rules": {
+		"quote-props": "off"
+	}
+}

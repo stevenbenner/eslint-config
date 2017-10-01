@@ -1,4 +1,5 @@
 .editorconfig
+.eslintrc.json
 .gitattributes
 .npmignore
 *.tgz
