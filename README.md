@@ -6,7 +6,6 @@ This is my set of [ESLint](https://eslint.org/) rules for verifying JavaScript. 
 
 [![NPM version](https://img.shields.io/npm/v/@stevenbenner/eslint-config.svg?style=flat-square)](https://www.npmjs.com/package/@stevenbenner/eslint-config)
 [![Build Status](https://img.shields.io/travis/stevenbenner/eslint-config/master.svg?style=flat-square)](https://travis-ci.org/stevenbenner/eslint-config)
-[![Dependency Status](https://img.shields.io/gemnasium/stevenbenner/eslint-config.svg?style=flat-square)](https://gemnasium.com/stevenbenner/eslint-config)
 
 ## Usage
 
