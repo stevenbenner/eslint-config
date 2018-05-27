@@ -6,7 +6,7 @@ let restrictedGlobals = require('eslint-restricted-globals').map((varName) => ({
 }));
 
 module.exports = {
-	'extends': [
+	extends: [
 		'./rules/errors.js',
 		'./rules/best-practices.js',
 		'./rules/strict.js',
