@@ -83,8 +83,8 @@ module.exports = {
 				}
 			}
 		],
-		'semi-spacing': 'error',
 		'semi': 'error',
+		'semi-spacing': 'error',
 		'space-before-blocks': 'error',
 		'space-before-function-paren': [
 			'error',
