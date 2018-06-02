@@ -60,6 +60,19 @@ module.exports = {
 			'error',
 			'never'
 		],
+		'padding-line-between-statements': [
+			'error',
+			{
+				blankLine: 'always',
+				prev: 'directive',
+				next: '*'
+			},
+			{
+				blankLine: 'any',
+				prev: 'directive',
+				next: 'directive'
+			}
+		],
 		'quote-props': [
 			'error',
 			'as-needed'
