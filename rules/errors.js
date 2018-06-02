@@ -9,7 +9,6 @@ module.exports = {
 			'functions'
 		],
 		'no-template-curly-in-string': 'error',
-		'no-unsafe-negation': 'error',
 		'valid-jsdoc': [
 			'error',
 			{
