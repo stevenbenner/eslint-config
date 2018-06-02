@@ -13,6 +13,7 @@ module.exports = {
 		'no-useless-constructor': 'error',
 		'no-useless-rename': 'error',
 		'no-var': 'error',
+		'rest-spread-spacing': 'error',
 		'template-curly-spacing': 'error',
 		'yield-star-spacing': 'error'
 	}
