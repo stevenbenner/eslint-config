@@ -25,7 +25,6 @@ module.exports = {
 		],
 		'key-spacing': 'error',
 		'keyword-spacing': 'error',
-		'lines-around-directive': 'error',
 		'max-statements-per-line': 'error',
 		'multiline-ternary': [
 			'error',
