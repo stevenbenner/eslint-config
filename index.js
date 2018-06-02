@@ -1,6 +1,6 @@
 'use strict';
 
-let restrictedGlobals = require('eslint-restricted-globals').map((varName) => ({
+const restrictedGlobals = require('eslint-restricted-globals').map((varName) => ({
 	name: varName,
 	message: `You should probably use 'window.${varName}' instead.`
 }));
