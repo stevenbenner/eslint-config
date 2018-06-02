@@ -30,7 +30,6 @@ module.exports = {
 		'no-extend-native': 'error',
 		'no-extra-bind': 'error',
 		'no-floating-decimal': 'error',
-		'no-global-assign': 'error',
 		'no-implicit-coercion': 'error',
 		'no-implicit-globals': 'error',
 		'no-implied-eval': 'error',
