@@ -14,6 +14,7 @@ module.exports = {
 		'no-useless-rename': 'error',
 		'no-var': 'error',
 		'rest-spread-spacing': 'error',
+		'symbol-description': 'error',
 		'template-curly-spacing': 'error',
 		'yield-star-spacing': 'error'
 	}
