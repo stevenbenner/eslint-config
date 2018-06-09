@@ -16,6 +16,7 @@ module.exports = {
 		'computed-property-spacing': 'error',
 		'eol-last': 'error',
 		'func-call-spacing': 'error',
+		'implicit-arrow-linebreak': 'error',
 		'indent': [
 			'error',
 			'tab',
