@@ -117,6 +117,7 @@ module.exports = {
 				}
 			}
 		],
+		'switch-colon-spacing': 'error',
 		'unicode-bom': 'error'
 	}
 };
