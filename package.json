@@ -24,7 +24,7 @@
 		"eslintconfig"
 	],
 	"dependencies": {
-		"eslint-restricted-globals": "^0.1.1"
+		"confusing-browser-globals": "^1.0.11"
 	},
 	"devDependencies": {
 		"eslint": "^8.39.0"

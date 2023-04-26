@@ -1,6 +1,6 @@
 'use strict';
 
-const restrictedGlobals = require('eslint-restricted-globals').map((varName) => ({
+const restrictedGlobals = require('confusing-browser-globals').map((varName) => ({
 	name: varName,
 	message: `You should probably use 'window.${varName}' instead.`
 }));
