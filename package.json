@@ -30,6 +30,7 @@
 		"eslint": "^8.39.0"
 	},
 	"scripts": {
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"test": "node --test"
 	}
 }
