@@ -2,12 +2,13 @@
 
 **A sensibly strict ESLint configuration.**
 
-This is my set of [ESLint](https://eslint.org/) rules for verifying JavaScript. It is meant to be used with the "eslint:recommended" rules.
+This is my set of [ESLint][eslint] rules for verifying JavaScript. It is meant to be used with the "eslint:recommended" rules.
 
 This software is licensed under the [MIT license][license].
 
 [![NPM version](https://img.shields.io/npm/v/@stevenbenner/eslint-config.svg?style=flat-square)][npmpage]
 
+[eslint]: https://eslint.org/
 [license]: LICENSE.txt
 
 ## Usage
