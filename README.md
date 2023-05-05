@@ -6,10 +6,11 @@ This is my set of [ESLint][eslint] rules for verifying JavaScript. It is meant t
 
 This software is licensed under the [MIT license][license].
 
-[![NPM version](https://img.shields.io/npm/v/@stevenbenner/eslint-config.svg?style=flat-square)][npmpage]
+[![NPM version][npmbadge]][npmpage]
 
 [eslint]: https://eslint.org/
 [license]: LICENSE.txt
+[npmbadge]: https://img.shields.io/npm/v/@stevenbenner/eslint-config.svg?style=flat-square
 
 ## Usage
 
