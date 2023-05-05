@@ -29,6 +29,7 @@ Then add the extends to your project's root ESLint configuration file:
 ]
 ```
 
-Note that this package is just ESLint rules. You will also want to set your `env`, `parserOptions`, and any other project specific ESLint settings in your project's ESLint configuration file(s).
+> **Note**\
+> This package only contains ESLint rules. You will also want to set your `env`, `parserOptions`, and any other project specific ESLint settings in your project's ESLint configuration file(s).
 
 [npmpage]: https://www.npmjs.com/package/@stevenbenner/eslint-config
