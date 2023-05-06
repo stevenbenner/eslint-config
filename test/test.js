@@ -87,3 +87,22 @@ test('rules files do not duplicate rules', async (t) => {
 
 	await Promise.all(subTests);
 });
+
+test('rules do not override any rules from eslint:recommended', async (t) => {
+	const eslintJs = require('@eslint/js');
+	const subTests = [];
+
+	for (const fileName of RULES_FILE_LIST) {
+		subTests.push(t.test(`${fileName} does not contain eslint:recommended rules`, (st) => {
+			const { rules } = require(path.join(RULES_FOLDER, fileName));
+			Object.keys(eslintJs.configs.recommended.rules).forEach((recommendedRule) => {
+				assert.ok(
+					!Object.hasOwn(rules, recommendedRule),
+					`${fileName} does not contain eslint:recommended rule "${recommendedRule}"`
+				);
+			});
+		}));
+	};
+
+	await Promise.all(subTests);
+});
