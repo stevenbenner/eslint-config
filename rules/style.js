@@ -85,17 +85,6 @@ module.exports = {
 				'avoidEscape': true
 			}
 		],
-		'require-jsdoc': [
-			'error',
-			{
-				'require': {
-					'FunctionDeclaration': true,
-					'MethodDefinition': true,
-					'ClassDeclaration': true,
-					'ArrowFunctionExpression': true
-				}
-			}
-		],
 		'semi': 'error',
 		'semi-spacing': 'error',
 		'semi-style': 'error',

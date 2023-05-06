@@ -8,12 +8,6 @@ module.exports = {
 			'error',
 			'functions'
 		],
-		'no-template-curly-in-string': 'error',
-		'valid-jsdoc': [
-			'error',
-			{
-				'requireReturn': false
-			}
-		]
+		'no-template-curly-in-string': 'error'
 	}
 };
