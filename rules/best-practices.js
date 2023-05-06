@@ -55,7 +55,6 @@ module.exports = {
 		'no-useless-call': 'error',
 		'no-useless-concat': 'error',
 		'no-useless-return': 'error',
-		'no-with': 'error',
 		'prefer-promise-reject-errors': 'error',
 		'radix': 'error',
 		'require-await': 'error',
