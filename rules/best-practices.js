@@ -58,6 +58,7 @@ module.exports = {
 		'prefer-promise-reject-errors': 'error',
 		'radix': 'error',
 		'require-await': 'error',
+		'strict': 'error',
 		'vars-on-top': 'error',
 		'wrap-iife': [
 			'error',
