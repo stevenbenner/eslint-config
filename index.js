@@ -10,8 +10,7 @@ module.exports = {
 		'./rules/errors.js',
 		'./rules/best-practices.js',
 		'./rules/variables.js',
-		'./rules/style.js',
-		'./rules/es6.js'
+		'./rules/style.js'
 	].map(require.resolve),
 	rules: {
 		'no-restricted-globals': [ 'error' ].concat(restrictedGlobals)

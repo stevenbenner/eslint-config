@@ -7,6 +7,7 @@ module.exports = {
 			'error',
 			'always'
 		],
+		'arrow-spacing': 'error',
 		'block-spacing': 'error',
 		'brace-style': 'error',
 		'camelcase': 'error',
@@ -16,6 +17,7 @@ module.exports = {
 		'computed-property-spacing': 'error',
 		'eol-last': 'error',
 		'func-call-spacing': 'error',
+		'generator-star-spacing': 'error',
 		'implicit-arrow-linebreak': 'error',
 		'indent': [
 			'error',
@@ -85,6 +87,7 @@ module.exports = {
 				'avoidEscape': true
 			}
 		],
+		'rest-spread-spacing': 'error',
 		'semi': 'error',
 		'semi-spacing': 'error',
 		'semi-style': 'error',
@@ -111,6 +114,8 @@ module.exports = {
 			}
 		],
 		'switch-colon-spacing': 'error',
-		'unicode-bom': 'error'
+		'template-curly-spacing': 'error',
+		'unicode-bom': 'error',
+		'yield-star-spacing': 'error'
 	}
 };

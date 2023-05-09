@@ -4,6 +4,7 @@
 module.exports = {
 	rules: {
 		'no-await-in-loop': 'error',
+		'no-duplicate-imports': 'error',
 		'no-extra-parens': [
 			'error',
 			'functions'

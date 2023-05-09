@@ -11,6 +11,7 @@ module.exports = {
 			{
 				'functions': false
 			}
-		]
+		],
+		'no-var': 'error'
 	}
 };
