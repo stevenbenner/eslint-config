@@ -2,7 +2,7 @@
 
 // variables
 module.exports = {
-	rules: {
+	rules: Object.freeze({
 		'no-catch-shadow': 'error',
 		'no-undef-init': 'error',
 		'no-undefined': 'error',
@@ -13,5 +13,5 @@ module.exports = {
 			}
 		],
 		'no-var': 'error'
-	}
+	})
 };

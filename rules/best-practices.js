@@ -2,7 +2,7 @@
 
 // best practices
 module.exports = {
-	rules: {
+	rules: Object.freeze({
 		'accessor-pairs': 'error',
 		'array-callback-return': 'error',
 		'arrow-body-style': 'error',
@@ -71,5 +71,5 @@ module.exports = {
 			'error',
 			'any'
 		]
-	}
+	})
 };

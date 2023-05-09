@@ -12,7 +12,7 @@ module.exports = {
 		'./rules/variables.js',
 		'./rules/style.js'
 	].map(require.resolve),
-	rules: {
+	rules: Object.freeze({
 		'no-restricted-globals': [ 'error' ].concat(restrictedGlobals)
-	}
+	})
 };

@@ -16,6 +16,7 @@ test('module is correctly structured', async (t) => {
 	await t.test('index returns correct types', (st) => {
 		assert.strictEqual(typeof eslintConfig, 'object', 'return is an object');
 		assert.strictEqual(typeof eslintConfig.rules, 'object', 'rules is an object');
+		assert.ok(Object.isFrozen(eslintConfig.rules), 'rules is a frozen object');
 		assert.ok(Array.isArray(eslintConfig.extends), 'extends is an array');
 	});
 
@@ -40,6 +41,7 @@ test('rules files are correctly structured', async (t) => {
 			const ruleSet = require(path.join(RULES_FOLDER, fileName));
 			assert.strictEqual(typeof ruleSet, 'object', `${fileName} return is an object`);
 			assert.strictEqual(typeof ruleSet.rules, 'object', `${fileName} rules is an object`);
+			assert.ok(Object.isFrozen(ruleSet.rules), 'rules is a frozen object');
 		}));
 	}
 

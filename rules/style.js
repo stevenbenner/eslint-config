@@ -2,7 +2,7 @@
 
 // stylistic issues
 module.exports = {
-	rules: {
+	rules: Object.freeze({
 		'array-bracket-spacing': [
 			'error',
 			'always'
@@ -117,5 +117,5 @@ module.exports = {
 		'template-curly-spacing': 'error',
 		'unicode-bom': 'error',
 		'yield-star-spacing': 'error'
-	}
+	})
 };

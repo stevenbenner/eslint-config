@@ -2,7 +2,7 @@
 
 // possible errors
 module.exports = {
-	rules: {
+	rules: Object.freeze({
 		'no-await-in-loop': 'error',
 		'no-duplicate-imports': 'error',
 		'no-extra-parens': [
@@ -10,5 +10,5 @@ module.exports = {
 			'functions'
 		],
 		'no-template-curly-in-string': 'error'
-	}
+	})
 };
