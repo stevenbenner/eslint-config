@@ -4,7 +4,6 @@
 module.exports = {
 	rules: Object.freeze({
 		'accessor-pairs': 'error',
-		'array-callback-return': 'error',
 		'arrow-body-style': 'error',
 		'arrow-parens': 'error',
 		'block-scoped-var': 'error',
