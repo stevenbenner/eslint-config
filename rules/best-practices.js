@@ -51,7 +51,6 @@ module.exports = {
 		'no-script-url': 'error',
 		'no-sequences': 'error',
 		'no-throw-literal': 'error',
-		'no-unused-expressions': 'error',
 		'no-useless-call': 'error',
 		'no-useless-computed-key': 'error',
 		'no-useless-concat': 'error',
