@@ -10,6 +10,7 @@ module.exports = {
 			'error',
 			'functions'
 		],
+		'no-self-compare': 'error',
 		'no-template-curly-in-string': 'error'
 	})
 };

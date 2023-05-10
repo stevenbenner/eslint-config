@@ -49,7 +49,6 @@ module.exports = {
 		'no-return-assign': 'error',
 		'no-return-await': 'error',
 		'no-script-url': 'error',
-		'no-self-compare': 'error',
 		'no-sequences': 'error',
 		'no-throw-literal': 'error',
 		'no-unmodified-loop-condition': 'error',
