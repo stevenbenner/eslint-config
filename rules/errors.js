@@ -5,7 +5,12 @@ module.exports = {
 	rules: Object.freeze({
 		'array-callback-return': 'error',
 		'no-await-in-loop': 'error',
-		'no-duplicate-imports': 'error',
+		'no-duplicate-imports': [
+			'error',
+			{
+				'includeExports': true
+			}
+		],
 		'no-extra-parens': [
 			'error',
 			'functions'
