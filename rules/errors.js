@@ -11,6 +11,7 @@ module.exports = {
 			'functions'
 		],
 		'no-self-compare': 'error',
-		'no-template-curly-in-string': 'error'
+		'no-template-curly-in-string': 'error',
+		'no-unmodified-loop-condition': 'error'
 	})
 };
