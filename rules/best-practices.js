@@ -25,6 +25,7 @@ module.exports = {
 			}
 		],
 		'eqeqeq': 'error',
+		'max-classes-per-file': 'error',
 		'no-caller': 'error',
 		'no-confusing-arrow': 'error',
 		'no-else-return': 'error',
