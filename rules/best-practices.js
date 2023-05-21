@@ -57,6 +57,7 @@ module.exports = {
 		'no-useless-constructor': 'error',
 		'no-useless-rename': 'error',
 		'no-useless-return': 'error',
+		'prefer-numeric-literals': 'error',
 		'prefer-promise-reject-errors': 'error',
 		'prefer-rest-params': 'error',
 		'prefer-spread': 'error',
