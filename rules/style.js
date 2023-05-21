@@ -32,6 +32,10 @@ module.exports = {
 			'error',
 			'unix'
 		],
+		'lines-between-class-members': [
+			'error',
+			'always'
+		],
 		'max-statements-per-line': 'error',
 		'multiline-ternary': [
 			'error',
