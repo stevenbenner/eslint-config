@@ -28,6 +28,10 @@ module.exports = {
 		],
 		'key-spacing': 'error',
 		'keyword-spacing': 'error',
+		'linebreak-style': [
+			'error',
+			'unix'
+		],
 		'max-statements-per-line': 'error',
 		'multiline-ternary': [
 			'error',
