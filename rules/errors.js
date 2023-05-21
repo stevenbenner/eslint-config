@@ -15,6 +15,7 @@ module.exports = {
 			'error',
 			'functions'
 		],
+		'no-invalid-this': 'error',
 		'no-self-compare': 'error',
 		'no-template-curly-in-string': 'error',
 		'no-unmodified-loop-condition': 'error',
