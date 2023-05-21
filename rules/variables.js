@@ -12,6 +12,7 @@ module.exports = {
 				'functions': false
 			}
 		],
-		'no-var': 'error'
+		'no-var': 'error',
+		'prefer-const': 'error'
 	})
 };
