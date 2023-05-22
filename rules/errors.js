@@ -4,6 +4,7 @@
 module.exports = {
 	rules: Object.freeze({
 		'array-callback-return': 'error',
+		'default-param-last': 'error',
 		'no-await-in-loop': 'error',
 		'no-duplicate-imports': [
 			'error',
