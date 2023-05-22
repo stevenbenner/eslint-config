@@ -59,6 +59,7 @@ module.exports = {
 		'no-useless-rename': 'error',
 		'no-useless-return': 'error',
 		'prefer-numeric-literals': 'error',
+		'prefer-object-spread': 'error',
 		'prefer-promise-reject-errors': 'error',
 		'prefer-rest-params': 'error',
 		'prefer-spread': 'error',
