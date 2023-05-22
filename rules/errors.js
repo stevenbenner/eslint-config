@@ -20,6 +20,7 @@ module.exports = {
 		'no-self-compare': 'error',
 		'no-template-curly-in-string': 'error',
 		'no-unmodified-loop-condition': 'error',
-		'no-unused-expressions': 'error'
+		'no-unused-expressions': 'error',
+		'require-atomic-updates': 'error'
 	})
 };
