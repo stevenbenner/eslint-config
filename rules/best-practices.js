@@ -66,6 +66,7 @@ module.exports = {
 		'prefer-template': 'error',
 		'radix': 'error',
 		'require-await': 'error',
+		'require-unicode-regexp': 'error',
 		'strict': 'error',
 		'symbol-description': 'error',
 		'vars-on-top': 'error',
