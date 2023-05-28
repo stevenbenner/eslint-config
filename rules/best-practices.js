@@ -62,6 +62,7 @@ module.exports = {
 		'no-useless-constructor': 'error',
 		'no-useless-rename': 'error',
 		'no-useless-return': 'error',
+		'prefer-exponentiation-operator': 'error',
 		'prefer-numeric-literals': 'error',
 		'prefer-object-spread': 'error',
 		'prefer-promise-reject-errors': 'error',
