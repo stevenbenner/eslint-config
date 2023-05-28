@@ -19,6 +19,7 @@ module.exports = {
 		],
 		'no-invalid-this': 'error',
 		'no-multi-assign': 'error',
+		'no-promise-executor-return': 'error',
 		'no-self-compare': 'error',
 		'no-template-curly-in-string': 'error',
 		'no-unmodified-loop-condition': 'error',
