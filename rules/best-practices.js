@@ -25,6 +25,10 @@ module.exports = {
 			}
 		],
 		'eqeqeq': 'error',
+		'grouped-accessor-pairs': [
+			'error',
+			'getBeforeSet'
+		],
 		'max-classes-per-file': 'error',
 		'no-caller': 'error',
 		'no-confusing-arrow': 'error',
