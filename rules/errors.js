@@ -14,6 +14,7 @@ module.exports = {
 				'includeExports': true
 			}
 		],
+		'no-empty-static-block': 'error',
 		'no-extra-parens': [
 			'error',
 			'functions'
