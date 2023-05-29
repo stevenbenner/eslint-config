@@ -6,6 +6,7 @@ module.exports = {
 		'array-callback-return': 'error',
 		'default-param-last': 'error',
 		'no-await-in-loop': 'error',
+		'no-constant-binary-expression': 'error',
 		'no-constructor-return': 'error',
 		'no-duplicate-imports': [
 			'error',
