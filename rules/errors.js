@@ -21,6 +21,7 @@ module.exports = {
 		],
 		'no-invalid-this': 'error',
 		'no-multi-assign': 'error',
+		'no-new-native-nonconstructor': 'error',
 		'no-promise-executor-return': 'error',
 		'no-self-compare': 'error',
 		'no-template-curly-in-string': 'error',
