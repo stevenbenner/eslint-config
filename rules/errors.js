@@ -25,6 +25,7 @@ module.exports = {
 		'no-unmodified-loop-condition': 'error',
 		'no-unreachable-loop': 'error',
 		'no-unused-expressions': 'error',
+		'no-unused-private-class-members': 'error',
 		'require-atomic-updates': 'error'
 	})
 };
