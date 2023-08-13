@@ -1,7 +1,7 @@
 {
 	"name": "@stevenbenner/eslint-config",
 	"version": "2.0.0",
-	"description": "Sensibly strict eslint configuration.",
+	"description": "Sensibly strict ESLint configuration.",
 	"license": "MIT",
 	"author": {
 		"name": "Steven Benner",
