@@ -1,6 +1,9 @@
 {
 	"root": true,
-	"extends": "./index.js",
+	"extends": [
+		"eslint:recommended",
+		"./index.js"
+	],
 	"parserOptions": {
 		"ecmaVersion": "latest"
 	},
