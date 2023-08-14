@@ -13,14 +13,14 @@ const RULES_FILE_LIST = fs.readdirSync(RULES_FOLDER);
 test('module is correctly structured', async (t) => {
 	const eslintConfig = require('../index');
 
-	await t.test('index returns correct types', (st) => {
+	await t.test('index returns correct types', () => {
 		assert.strictEqual(typeof eslintConfig, 'object', 'return is an object');
 		assert.strictEqual(typeof eslintConfig.rules, 'object', 'rules is an object');
 		assert.ok(Object.isFrozen(eslintConfig.rules), 'rules is a frozen object');
 		assert.ok(Array.isArray(eslintConfig.extends), 'extends is an array');
 	});
 
-	await t.test('extends array is correct', (st) => {
+	await t.test('extends array is correct', () => {
 		assert.ok(
 			eslintConfig.extends.every((rulesPath) => typeof rulesPath === 'string'),
 			'extends array only contains strings'
@@ -37,7 +37,7 @@ test('rules files are correctly structured', async (t) => {
 	const subTests = [];
 
 	for (const fileName of RULES_FILE_LIST) {
-		subTests.push(t.test(`${fileName} returns correct types`, (st) => {
+		subTests.push(t.test(`${fileName} returns correct types`, () => {
 			const ruleSet = require(path.join(RULES_FOLDER, fileName));
 			assert.strictEqual(typeof ruleSet, 'object', `${fileName} return is an object`);
 			assert.strictEqual(typeof ruleSet.rules, 'object', `${fileName} rules is an object`);
@@ -55,7 +55,7 @@ test('all rules exist in eslint', async (t) => {
 	const subTests = [];
 
 	for (const fileName of RULES_FILE_LIST) {
-		subTests.push(t.test(`${fileName} only contains known eslint rules`, (st) => {
+		subTests.push(t.test(`${fileName} only contains known eslint rules`, () => {
 			const { rules } = require(path.join(RULES_FOLDER, fileName));
 			Object.keys(rules).forEach((ruleName) => {
 				assert.ok(eslintRules.has(ruleName), `${fileName} rule "${ruleName}" is a known eslint rule`);
@@ -70,7 +70,7 @@ test('rules files do not duplicate rules', async (t) => {
 	const subTests = [];
 
 	for (const fileName of RULES_FILE_LIST) {
-		subTests.push(t.test(`${fileName} does not duplicate rules`, (st) => {
+		subTests.push(t.test(`${fileName} does not duplicate rules`, () => {
 			const { rules: theseRules } = require(path.join(RULES_FOLDER, fileName));
 			RULES_FILE_LIST.forEach((otherFile) => {
 				if (fileName === otherFile) {
@@ -95,7 +95,7 @@ test('rules do not override any rules from eslint:recommended', async (t) => {
 	const subTests = [];
 
 	for (const fileName of RULES_FILE_LIST) {
-		subTests.push(t.test(`${fileName} does not contain eslint:recommended rules`, (st) => {
+		subTests.push(t.test(`${fileName} does not contain eslint:recommended rules`, () => {
 			const { rules } = require(path.join(RULES_FOLDER, fileName));
 			Object.keys(eslintJs.configs.recommended.rules).forEach((recommendedRule) => {
 				assert.ok(
