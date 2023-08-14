@@ -61,7 +61,7 @@ test('all rules exist in eslint', async (t) => {
 				assert.ok(eslintRules.has(ruleName), `${fileName} rule "${ruleName}" is a known eslint rule`);
 			});
 		}));
-	};
+	}
 
 	await Promise.all(subTests);
 });
@@ -104,7 +104,7 @@ test('rules do not override any rules from eslint:recommended', async (t) => {
 				);
 			});
 		}));
-	};
+	}
 
 	await Promise.all(subTests);
 });
