@@ -29,6 +29,9 @@
 	"devDependencies": {
 		"eslint": "^8.47.0"
 	},
+	"peerDependencies": {
+		"eslint": ">=8.27.0"
+	},
 	"scripts": {
 		"lint": "DEBUG=eslint:cli-engine eslint .",
 		"test": "node --test"
