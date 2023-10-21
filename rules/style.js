@@ -53,7 +53,6 @@ module.exports = {
 		'no-lonely-if': 'error',
 		'no-multiple-empty-lines': 'error',
 		'no-nested-ternary': 'error',
-		'no-new-object': 'error',
 		'no-trailing-spaces': 'error',
 		'no-underscore-dangle': 'error',
 		'no-unneeded-ternary': 'error',

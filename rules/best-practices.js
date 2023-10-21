@@ -49,6 +49,7 @@ module.exports = {
 		'no-new': 'error',
 		'no-new-func': 'error',
 		'no-new-wrappers': 'error',
+		'no-object-constructor': 'error',
 		'no-octal-escape': 'error',
 		'no-proto': 'error',
 		'no-return-assign': 'error',
