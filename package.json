@@ -10,7 +10,7 @@
 	"homepage": "https://github.com/stevenbenner/eslint-config",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/stevenbenner/eslint-config.git"
+		"url": "git+https://github.com/stevenbenner/eslint-config.git"
 	},
 	"bugs": {
 		"url": "https://github.com/stevenbenner/eslint-config/issues"
